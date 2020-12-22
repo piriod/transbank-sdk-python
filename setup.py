@@ -105,7 +105,7 @@ setup(
     url=URL,
     packages=find_packages(exclude=('tests',)),
     install_requires=REQUIRED,
-    setup_requires=TESTS_REQUIREMENTS,
+    #setup_requires=TESTS_REQUIREMENTS,
     include_package_data=True,
     license='BSD 3-clause "New" or "Revised License"',
     classifiers=[
